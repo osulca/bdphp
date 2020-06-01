@@ -32,7 +32,7 @@
                 echo $e->getMessage();
             }
         }
-        
+        // comentario agregado
         try{
                 $resultado = $conn->query("SELECT * FROM estudiantes");                                
                 echo "<table border='1'>".
